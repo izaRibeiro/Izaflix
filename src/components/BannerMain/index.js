@@ -1,6 +1,7 @@
 import React from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
+import { BsFillCaretRightFill } from "react-icons/bs";
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL
@@ -36,7 +37,7 @@ export default function BannerMain({
             youtubeID={youTubeID}
           />
           <WatchButton>
-            Assistir
+            <BsFillCaretRightFill size="1rem"/> Assistir 
           </WatchButton>
         </ContentAreaContainer.Item>
       </ContentAreaContainer>
