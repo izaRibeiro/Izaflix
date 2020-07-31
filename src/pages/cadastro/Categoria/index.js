@@ -31,7 +31,9 @@ function CadastroCategoria() {
     const URL = 'http://localhost:8080/categorias';
     fetch(URL).then(async (response) => {
       const res = await response.json();
-      setCategorias(res);
+      setCategorias([
+        ...res, 
+      ]);
     })
   }, []);
 
