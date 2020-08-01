@@ -6,14 +6,14 @@
 :root {
   --primary: #2A7AE4;
   --black: #000000;
-  --blackLighter: #9E9E9E;
+  --blackLighter: #dbdbdb;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
   --redNetflix: #DB202C;
-  --backroundHome: #141414;
+  --backgroundHome: #141414;
 }
 
 html,

@@ -25,7 +25,7 @@
     padding-right: 5%;
 
     background: var(--black);
-    background: linear-gradient(var(--black), var(--backroundHome));
+    background: linear-gradient(var(--black), var(--backgroundHome));
 }
 
 body {

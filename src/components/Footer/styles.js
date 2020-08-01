@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 
 export const FooterBase = styled.footer`
-  background: var(--black);
-  border-top: 2px solid var(--primary);
+  background: linear-gradient(var(--backgroundHome), var(--black));
+  border-top: 2px solid var(--redNetflix);
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 32px;
@@ -11,6 +11,6 @@ export const FooterBase = styled.footer`
   color: var(--white);
   text-align: center;
   @media (max-width: 800px) {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
   }
 `;
