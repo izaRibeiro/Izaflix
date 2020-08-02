@@ -34,12 +34,9 @@ function CadastroVideo() {
                 event.preventDefault();
                 
                 const categoriaEscolhida = categorias.find((categoria) => {
-                    debugger
                     return categoria.titulo === values.categoria;
                 }); 
                 
-                console.log("Categoria: ", categorias)
-                console.log("Values: ", categoriaEscolhida)
                 videoRepository.create({
                     titulo: '',
                     url: values.url,
@@ -74,11 +71,11 @@ function CadastroVideo() {
                     onChange={handleChange}
                 />
 
-                <Button>
+                <Button color="--black" backgroundcolor="--buttonCadastro" margin="10px">
                     Cadastrar
                 </Button>
             </form>
-            <Button as={Link} to="/cadastro/categoria">
+            <Button as={Link} to="/cadastro/categoria" color="--black" backgroundcolor="--linkCadastroCategoria">
                 Cadastrar Categoria
             </Button>
             </div>

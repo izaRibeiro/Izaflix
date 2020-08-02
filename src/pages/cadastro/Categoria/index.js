@@ -66,7 +66,7 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button type="submit">
+        <Button type="submit" color="--black" backgroundcolor="--buttonCadastro">
           Cadastrar
         </Button>
         </form>
@@ -85,7 +85,7 @@ function CadastroCategoria() {
         })}
       </ul>
 
-      <Button as={Link} to="/">
+      <Button as={Link} to="/" color="--black" backgroundcolor="--linkHome">
         Ir para home
       </Button>
       </div>

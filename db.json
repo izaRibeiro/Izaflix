@@ -9,13 +9,11 @@
       "id": 2,
       "titulo": "Jogos",
       "cor": "#00C86F"
-
     },
     {
       "id": 3,
       "titulo": "Músicas Nacionais",
       "cor": "#9cd33b"
-
     },
     {
       "id": 4,
@@ -26,21 +24,20 @@
       "id": 5,
       "titulo": "Curiosidades",
       "cor": "red"
-
     },
     {
       "id": 6,
       "titulo": "Tecnologia",
       "cor": "#9cd33b"
-
     }
   ],
   "videos": [
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "Scatlove",
-      "url": "https://www.youtube.com/watch?v=OzR8M5IG39A"
+      "titulo": "Scatolove",
+      "url": "https://www.youtube.com/watch?v=o9LxeJR9xCc",
+      "description": "Essa banda é uma verdadeira obra de arte nacional <3"
     },
     {
       "id": 2,
@@ -233,6 +230,12 @@
       "categoriaId": 6,
       "titulo": "DesignCourse",
       "url": "https://www.youtube.com/watch?v=tXUrW39YlPo&list=LLjtDXfqe-OydsnV26LuYiOg&index=45&t=0s"
+    },
+    {
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=7K04QZQ1jsU",
+      "categoriaId": 2,
+      "id": 32
     }
   ]
 }
