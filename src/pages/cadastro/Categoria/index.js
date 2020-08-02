@@ -8,7 +8,7 @@ import './Categoria.css';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   }
@@ -30,23 +30,23 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <div className="conteudo">
-      <h1>Cadastro de Categoria: {values.nome}</h1>
+      <h1>Cadastro de Categoria</h1>
 
-      <form onSubmit={function handleSubmit(input) {
+      <form onSubmit={function handleChange(input) {
+ 
           input.preventDefault();
           setCategorias([
             ...categorias,
             values
           ]);
-
           clearForm(valoresIniciais)
       }}>
 
         <FormField
           label="Nome da Categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -66,7 +66,7 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>
+        <Button type="submit">
           Cadastrar
         </Button>
         </form>
@@ -85,9 +85,9 @@ function CadastroCategoria() {
         })}
       </ul>
 
-      <Link to="/">
+      <Button as={Link} to="/">
         Ir para home
-      </Link>
+      </Button>
       </div>
     </PageDefault>
   )

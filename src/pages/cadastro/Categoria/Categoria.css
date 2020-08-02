@@ -2,3 +2,15 @@
     margin: 50px;
     margin-right: 50%;
 }
+
+li{
+    width: 50%;
+    list-style-type: none;
+    border-style: solid;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: var(--redNetflix);
+    color: var(--blackLighter);
+}

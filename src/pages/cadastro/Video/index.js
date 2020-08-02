@@ -28,11 +28,12 @@ function CadastroVideo() {
                 }); 
 
                 videoRepository.create({
+                    id: 50,
                     titulo: '',
                     url: values.url,
                     categoriaId: 1,
                 }).then(() => {
-                    console.log('Cadastro realizadoo com sucesso!')
+                    console.log('Cadastro realizado com sucesso!')
                     history.push('/');
                 });
                
