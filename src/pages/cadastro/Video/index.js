@@ -6,7 +6,10 @@ import useForm from '../../../hooks/useForm';
 import Button from '../../../components/Button';
 import videoRepository from '../../../repository/videos';
 import categoriasRepository from '../../../repository/categorias';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+toast.configure();
 function CadastroVideo() {
     const history = useHistory();
     const [categorias, setCategorias] = useState([])
@@ -37,14 +40,18 @@ function CadastroVideo() {
                     return categoria.titulo === values.categoria;
                 }); 
                 
-                videoRepository.create({
-                    titulo: '',
-                    url: values.url,
-                    categoriaId: categoriaEscolhida.id,
-                }).then(() => {
-                    console.log('Cadastro realizado com sucesso!')
-                    history.push('/');
-                });
+                if(categoriaEscolhida){
+                    videoRepository.create({
+                        titulo: '',
+                        url: values.url,
+                        categoriaId: categoriaEscolhida.id,
+                    }).then(() => {
+                        toast.success('Cadastro realizado com sucesso!')
+                        history.push('/');
+                    });
+                }else{
+                    toast.error('Não foi possivel encontrar a cetegoria solicitada')
+                }
                
             }}>
                 <FormField

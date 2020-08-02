@@ -8,7 +8,10 @@ import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repository/categorias';
 
 import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+toast.configure();
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
@@ -19,7 +22,7 @@ function Home() {
         setDadosIniciais(categoriasComVideos);
       })
       .catch((err) => {
-        console.log(err.message);
+        toast.error(err.message)
       });
   }, []);
 

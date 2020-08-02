@@ -5,7 +5,10 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 import './Categoria.css';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+toast.configure();
 function CadastroCategoria() {
   const valoresIniciais = {
     titulo: '',
@@ -39,6 +42,8 @@ function CadastroCategoria() {
             ...categorias,
             values
           ]);
+
+          toast.success('Cadastro realizado com sucesso!')
           clearForm(valoresIniciais)
       }}>
 

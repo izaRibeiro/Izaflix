@@ -1,4 +1,8 @@
 import config from '../config';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+toast.configure();
 
 const URL_CATEGORIAS = `${config.URL_BACKEND}/categorias`;
 
@@ -22,7 +26,8 @@ function getAllWithVideos(){
             return res;
         }
 
-       throw new Error('Ops .. houve um erro na conexão');
+      toast.error('Ops .. houve um erro na conexão')
+      throw new Error('Ops .. houve um erro na conexão');
     });
 }
 
