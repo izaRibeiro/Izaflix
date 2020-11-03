@@ -1,5 +1,5 @@
-const URL_BACKEND = 'http://localhost:8080';
+const URL_BACKEND = 'http://localhost:3333';
 
 export default {
-    URL_BACKEND,
+  URL_BACKEND,
 };

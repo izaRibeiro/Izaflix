@@ -230,6 +230,36 @@
       "categoriaId": 6,
       "titulo": "DesignCourse",
       "url": "https://www.youtube.com/watch?v=tXUrW39YlPo&list=LLjtDXfqe-OydsnV26LuYiOg&index=45&t=0s"
+    },
+    {
+      "id": 32,
+      "categoriaId": 2,
+      "titulo": "Genshin Impact",
+      "url": "https://www.youtube.com/watch?v=jEp9yyhwZFE"
+    },
+    {
+      "id": 33,
+      "categoriaId": 2,
+      "titulo": "Nioh",
+      "url": "https://www.youtube.com/watch?v=lx--ULOLDPY"
+    },
+    {
+      "id": 34,
+      "categoriaId": 3,
+      "titulo": "Maglore",
+      "url": "https://www.youtube.com/watch?v=QqmNdxZtssg"
+    },
+    {
+      "id": 35,
+      "categoriaId": 3,
+      "titulo": "SuperCombo",
+      "url": "https://www.youtube.com/watch?v=U7KNMkSztAg"
+    },
+    {
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=7K04QZQ1jsU",
+      "categoriaId": 5,
+      "id": 32
     }
   ]
 }

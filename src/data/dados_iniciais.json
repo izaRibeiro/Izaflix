@@ -74,6 +74,14 @@
         {
           "titulo": "Monster Hunter",
           "url": "https://www.youtube.com/watch?v=q3SSWTqr850"
+        },
+        {
+          "titulo": "Genshin Impact",
+          "url": "https://www.youtube.com/watch?v=jEp9yyhwZFE"
+        },
+        {
+          "titulo": "Nioh",
+          "url": "https://www.youtube.com/watch?v=lx--ULOLDPY"
         }
       ]
     },
@@ -104,8 +112,15 @@
         {
           "titulo": "Banda do Mar",
           "url": "https://www.youtube.com/watch?v=61jSSF3Vu54"
+        },
+        {
+          "titulo": "Maglore",
+          "url": "https://www.youtube.com/watch?v=QqmNdxZtssg"
+        },
+        {
+          "titulo": "SuperCombo",
+          "url": "https://www.youtube.com/watch?v=U7KNMkSztAg"
         }
-
       ]
     },
     {
@@ -131,6 +146,14 @@
         {
           "titulo": "Halestorm",
           "url": "https://www.youtube.com/watch?v=j2OD-dV7j_I"
+        },
+        {
+          "titulo": "White Lies",
+          "url": "https://www.youtube.com/watch?v=KlmSqyMT0FQ"
+        },
+        {
+          "titulo": "Blackbriar",
+          "url": "https://www.youtube.com/watch?v=h0pQnhujb2c"
         }
       ]
     },
